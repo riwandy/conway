@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#progress-bar {
+    height: 10px;
+    width: 100vw;
+    background: rgb(223, 223, 223);
+}
+
+#progress {
+    height: 100%;
+    width: 0%;
+    background: green;
+}
+
+#wrap {
+    display: grid;
+    grid-template-columns: auto 150px;
+    padding: 50px;
+    /* background: rebeccapurple; */
+}
+
+#canvas-wrap {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    /* background: black; */
+}
+
+#button-wrap {
+    padding: 100px 0;
+    /* background: blue; */
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    background: cadetblue;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background: rgb(84, 138, 139);
+}
